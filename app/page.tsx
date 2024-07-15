@@ -1,9 +1,12 @@
+// import { Landing } from "./landing";
+
+import Countdown from "./countdown";
 
 export default function Home() {
   return (
     <div>
-      <h1>Super Expeditors</h1>
-      <p>Next Level Accountability for Your Immediate Needs.</p>
+      {/* <Landing /> */}
+      <Countdown />
     </div>
   );
 }
