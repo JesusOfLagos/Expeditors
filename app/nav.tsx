@@ -5,43 +5,43 @@ import { Button } from "@/components/ui/button"
 
 export const Nav = () => {
   return (
-    <header className="sticky top-0 z-50 w-full bg-gradient-to-r from-primary to-primary-foreground py-4 shadow-md transition-colors duration-300 data-[scrolled=true]:bg-gradient-to-r data-[scrolled=true]:from-primary data-[scrolled=true]:to-primary-foreground">
+    <header className="sticky top-0 z-50 w-full bg-gradient-to-r from-primary to-primary-foreground py-4 shadow-md transition-colors duration-300 data-[scrolled=true]:bg-gradient-to-r data-[scrolled=true]:from-primary data-[scrolled=true]:to-primary-foreground text-white bg-[#FF6801] rounded-full">
       <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
-        <Link href="#" className="flex items-center gap-2" prefetch={false}>
-          <MountainIcon className="h-6 w-6 text-primary-foreground" />
-          <span className="text-lg font-bold text-primary-foreground">Acme Inc</span>
+        <Link href="/" className="flex items-center gap-2" prefetch={false}>
+          {/* <MountainIcon className="h-6 w-6 text-primary-foreground" /> */}
+          <span className="text-3xl text-white font-semibold text-primary-foreground">Super Expeditors</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium text-primary-foreground md:flex">
           <Link
-            href="#"
+            href="/about"
             className="relative before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-primary-foreground before:transition-all before:duration-300 hover:before:w-full"
             prefetch={false}
           >
-            Home
+            About 
           </Link>
           <Link
-            href="#"
+            href="/services"
             className="relative before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-primary-foreground before:transition-all before:duration-300 hover:before:w-full"
             prefetch={false}
           >
-            Features
+            Services
           </Link>
           <Link
-            href="#"
+            href="courses"
             className="relative before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-primary-foreground before:transition-all before:duration-300 hover:before:w-full"
             prefetch={false}
           >
-            Pricing
+           Courses
           </Link>
           <Link
-            href="#"
+            href="/resources"
             className="relative before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-primary-foreground before:transition-all before:duration-300 hover:before:w-full"
             prefetch={false}
           >
-            About
+            Resources
           </Link>
           <Link
-            href="#"
+            href="contact"
             className="relative before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-primary-foreground before:transition-all before:duration-300 hover:before:w-full"
             prefetch={false}
           >
@@ -49,17 +49,17 @@ export const Nav = () => {
           </Link>
         </nav>
         <Sheet>
-          <SheetTrigger asChild>
+          <SheetTrigger className="bg-[#FF6801] text-white" asChild>
             <Button variant="ghost" size="icon" className="md:hidden">
               <MenuIcon className="h-6 w-6 text-primary-foreground" />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="bg-primary">
+          <SheetContent side="right" className="bg-[#FF6801]">
             <div className="flex h-full w-full flex-col items-center justify-center gap-6 p-6">
               <Button variant="ghost" size="icon" className="absolute top-4 right-4 text-primary-foreground">
-                <XIcon className="h-6 w-6" />
-                <span className="sr-only">Close menu</span>
+                {/* <XIcon className="h-6 w-6" /> */}
+                {/* <span className="sr-only">Close menu</span> */}
               </Button>
               <nav className="flex flex-col items-center gap-4 text-lg font-medium text-primary-foreground">
                 <Link href="#" className="hover:underline" prefetch={false}>

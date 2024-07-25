@@ -1,12 +1,9 @@
-// import { Landing } from "./landing";
-
-import Countdown from "./countdown";
+import { Landing } from "./landing";
 
 export default function Home() {
   return (
     <div>
-      {/* <Landing /> */}
-      <Countdown />
+      <Landing />
     </div>
   );
 }

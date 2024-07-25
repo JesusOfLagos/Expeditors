@@ -6,9 +6,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Nav } from "./nav"
-import { Input } from "@/components/ui/input"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
-import { Footer } from "./footer"
+import { Footer } from "@/components/Footer"
 
 export const Landing: React.FC = () => {
     return (
@@ -55,7 +54,7 @@ export const Landing: React.FC = () => {
                         <div className="max-w-xl">
                             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">About Us</h2>
                             <p className="text-lg md:text-xl text-white mb-8">
-                                Expeditors is a leading provider of accountability services, helping businesses of all sizes achieve
+                                Super Expeditors is a leading provider of accountability services, helping businesses of all sizes achieve
                                 their goals. Our team of experts is dedicated to delivering tailored solutions that empower our clients
                                 to succeed.
                             </p>
@@ -73,7 +72,7 @@ export const Landing: React.FC = () => {
                     <div className="container mx-auto px-4 md:px-6 text-center">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#045b2E] mb-4">Our Services</h2>
                         <p className="text-lg md:text-xl text-[#303030] mb-12">
-                            Expeditors offers a range of accountability services to help your business succeed.
+                            Super Expeditors offers a range of accountability services to help your business succeed.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -106,7 +105,7 @@ export const Landing: React.FC = () => {
                     <div className="container mx-auto px-4 md:px-6 text-center">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">Key Features</h2>
                         <p className="text-lg md:text-xl text-white mb-12">
-                            Expeditors offers a range of features to help your business succeed.
+                            Super Expeditors offers a range of features to help your business succeed.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -154,7 +153,7 @@ export const Landing: React.FC = () => {
                     <div className="container mx-auto px-4 md:px-6 text-center">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#045b2E] mb-4">Our Courses</h2>
                         <p className="text-lg md:text-xl text-[#303030] mb-12">
-                            Expeditors offers a range of courses to help you and your team succeed.
+                            Super Expeditors offers a range of courses to help you and your team succeed.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -224,7 +223,7 @@ export const Landing: React.FC = () => {
                     <div className="container mx-auto px-4 md:px-6 text-center">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#045b2E] mb-4">What Our Clients Say</h2>
                         <p className="text-lg md:text-xl text-[#303030] mb-12">
-                            Hear from our satisfied clients about their experience with Expeditors.
+                            Hear from our satisfied clients about their experience with Super Expeditors.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -239,7 +238,7 @@ export const Landing: React.FC = () => {
                                     </div>
                                 </div>
                                 <p className="text-[#303030] mb-4">
-                                &quot;Expeditors has been a game-changer for our business. Their\n accountability services have helped us
+                                    &quot;Super Expeditors has been a game-changer for our business. Their\n accountability services have helped us
                                     improve our performance\n and make more informed decisions.&quot;
                                 </p>
                                 <div />
@@ -256,7 +255,7 @@ export const Landing: React.FC = () => {
                                     </div>
                                 </div>
                                 <p className="text-[#303030] mb-4">
-                                &quot;I highly recommend Expeditors to any business looking to\n improve their financial reporting and
+                                    &quot;I highly recommend Super Expeditors to any business looking to\n improve their financial reporting and
                                     compliance. Their team\n is knowledgeable and responsive.&quot;
                                 </p>
                                 <div />
@@ -273,13 +272,15 @@ export const Landing: React.FC = () => {
                                     </div>
                                 </div>
                                 <p className="text-[#303030] mb-4">
-                                &quot;Expeditors has been instrumental in helping us stay compliant\n and identify areas for improvement.
+                                    &quot;Super Expeditors has been instrumental in helping us stay compliant\n and identify areas for improvement.
                                     Their expertise has been\n invaluable to our business.&quot;
                                 </p>
                                 <div />
                             </div>
                         </div>
                     </div>
+                </section>
+                <section id="faq" className="py-16 md:py-24 lg:py-32 bg-[#FF6801] text-white">
                     <div className="w-full max-w-5xl mx-auto py-12 md:py-20">
                         <div className="space-y-8">
                             <div className="text-center">
@@ -287,7 +288,7 @@ export const Landing: React.FC = () => {
                                 <p className="text-muted-foreground mt-2">Get answers to the most common questions about our courses.</p>
                             </div>
                             <div className="space-y-4">
-                                <Collapsible>
+                                <Collapsible className="bg-green-800">
                                     <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
                                         <h3 className="text-lg font-semibold">What courses do you offer?</h3>
                                         <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
@@ -300,7 +301,7 @@ export const Landing: React.FC = () => {
                                         </p>
                                     </CollapsibleContent>
                                 </Collapsible>
-                                <Collapsible>
+                                <Collapsible className="bg-green-800">
                                     <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
                                         <h3 className="text-lg font-semibold">How long are the courses?</h3>
                                         <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
@@ -313,7 +314,7 @@ export const Landing: React.FC = () => {
                                         </p>
                                     </CollapsibleContent>
                                 </Collapsible>
-                                <Collapsible>
+                                <Collapsible className="bg-green-800">
                                     <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
                                         <h3 className="text-lg font-semibold">Do you offer any certifications?</h3>
                                         <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
@@ -328,21 +329,9 @@ export const Landing: React.FC = () => {
                                 </Collapsible>
                             </div>
                         </div>
-                        <div className="mt-12 md:mt-20 bg-muted rounded-md p-6 md:p-10">
-                            <div className="text-center">
-                                <h2 className="text-3xl font-bold">Stay up to date</h2>
-                                <p className="text-muted-foreground mt-2">
-                                    Subscribe to our newsletter to receive the latest updates and exclusive offers.
-                                </p>
-                            </div>
-                            <form className="mt-6 flex gap-2">
-                                <Input type="email" placeholder="Enter your email" className="flex-1" />
-                                <Button type="submit">Subscribe</Button>
-                            </form>
-                        </div>
                     </div>
-                    <Footer />
                 </section>
+                <Footer />
             </main>
         </div>
     )

@@ -1,55 +1,38 @@
-
 import Link from "next/link"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { Nav } from "../nav"
+import { Footer } from "../../components/Footer"
 
 export const AboutPage = () => {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">Acme Accountability</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Services
-          </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Pricing
-          </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            About
-          </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Contact
-          </Link>
-        </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-[#FF6801]">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                <div className="space-y-2 text-wrap">
+                  <h1 className="text-3xl text-wrap font-bold sm:text-5xl xl:text-6xl/none text-white">
                     Accountability Services for Businesses
                   </h1>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    At Acme Accountability, we help businesses stay on track and achieve their goals through our
+                  <p className="max-w-[600px] text-[#303030] md:text-xl">
+                    At Super Expeditors, we help businesses stay on track and achieve their goals through our
                     comprehensive accountability services.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    className="inline-flex h-10 items-center justify-center rounded-md bg-[#045B2E] px-8 text-sm font-medium text-white shadow transition-colors hover:bg-[#045B2E]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
                     Learn More
                   </Link>
                   <Link
                     href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#FF6801] disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
                     Contact Us
@@ -66,19 +49,19 @@ export const AboutPage = () => {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-[#303030]">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Meet the Acme Accountability Team</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Meet the Super Expeditors Team</h2>
+                <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Our team of experienced professionals is dedicated to helping businesses achieve their goals through
                   our tailored accountability services.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
                   <AvatarFallback>JD</AvatarFallback>
@@ -88,7 +71,7 @@ export const AboutPage = () => {
                   <p className="text-muted-foreground">Co-Founder, CEO</p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
                   <AvatarFallback>JA</AvatarFallback>
@@ -98,7 +81,7 @@ export const AboutPage = () => {
                   <p className="text-muted-foreground">Co-Founder, COO</p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
                   <AvatarFallback>TS</AvatarFallback>
@@ -111,21 +94,21 @@ export const AboutPage = () => {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-[#FF6801]">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Approach to Accountability</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  At Acme Accountability, we believe that true accountability comes from a combination of structure,
+                <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  At Super Expeditors, we believe that true accountability comes from a combination of structure,
                   support, and personalized guidance. Our approach is designed to help businesses stay on track and
                   achieve their goals.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <BuildingIcon className="w-12 h-12 text-primary" />
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
+                <BuildingIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-bold">Structure</h3>
                   <p className="text-muted-foreground">
@@ -133,8 +116,8 @@ export const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <PowerIcon className="w-12 h-12 text-primary" />
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
+                <PowerIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-bold">Support</h3>
                   <p className="text-muted-foreground">
@@ -143,8 +126,8 @@ export const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <UserPlusIcon className="w-12 h-12 text-primary" />
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
+                <UserPlusIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-bold">Personalization</h3>
                   <p className="text-muted-foreground">
@@ -155,20 +138,20 @@ export const AboutPage = () => {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-[#303030]">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Acme Accountability offers a range of services to help businesses stay on track and achieve their
+                <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Super Expeditors offers a range of services to help businesses stay on track and achieve their
                   goals.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <GoalIcon className="w-12 h-12 text-primary" />
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
+                <GoalIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-bold">Goal Setting</h3>
                   <p className="text-muted-foreground">
@@ -176,8 +159,8 @@ export const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <WaypointsIcon className="w-12 h-12 text-primary" />
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
+                <WaypointsIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-bold">Progress Tracking</h3>
                   <p className="text-muted-foreground">
@@ -185,13 +168,13 @@ export const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <CogIcon className="w-12 h-12 text-primary" />
+              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
+                <CogIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Coaching</h3>
+                  <h3 className="text-lg font-bold">Coaching & Support</h3>
                   <p className="text-muted-foreground">
-                    Our team of experienced coaches provides personalized guidance and support to help businesses
-                    overcome challenges.
+                    Our team of experienced coaches provides ongoing support and guidance to help businesses overcome
+                    challenges.
                   </p>
                 </div>
               </div>
@@ -199,20 +182,11 @@ export const AboutPage = () => {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 Acme Accountability. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-            Terms of Service
-          </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-            Privacy
-          </Link>
-        </nav>
-      </footer>
+      <Footer />
     </div>
   )
 }
+
 
 function BuildingIcon(props: any) {
   return (

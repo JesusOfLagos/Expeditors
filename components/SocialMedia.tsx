@@ -62,9 +62,9 @@ function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const socialMediaProfiles = [
-    { title: 'Facebook', href: 'https://facebook.com/fcmf', icon: FacebookIcon },
-    { title: 'Instagram', href: 'https://instagram.com/fcmf', icon: InstagramIcon },
-    { title: 'X', href: 'https://x.com/fcmf', icon: XIcon },
+    { title: 'Facebook', href: 'https://facebook.com/superexpeditors', icon: FacebookIcon },
+    { title: 'Instagram', href: 'https://instagram.com/superexpeditors', icon: InstagramIcon },
+    { title: 'X', href: 'https://x.com/superexpeditors', icon: XIcon },
     // { title: 'GitHub', href: 'https://github.com/wisemrmusa/cohilagos', icon: GitHubIcon },
 ];
 

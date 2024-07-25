@@ -7,7 +7,7 @@ import { socialMediaProfiles } from '@/components/SocialMedia';
 
 const navigation = [
     {
-        title: 'FCMF',
+        title: 'Super Expeditors',
         links: [
             { title: 'About Us', href: '/about' },
             { title: 'Our Mission', href: '/mission' },
@@ -17,7 +17,7 @@ const navigation = [
         ],
     },
     {
-        title: 'ULSP',
+        title: 'Find A Partner',
         links: [
             { title: 'About', href: '/about' },
             { title: 'Board Of Trustees', href: '/board' },
@@ -37,10 +37,10 @@ function Navigation() {
             <ul role="list" className="grid grid-cols-2 gap-8 sm:grid-cols-3">
                 {navigation.map((section, sectionIndex) => (
                     <li key={sectionIndex}>
-                        <div className="font-display text-sm font-semibold tracking-wider text-purple-950">
+                        <div className="font-display text-sm font-semibold tracking-wider text-orange-950">
                             {section.title}
                         </div>
-                        <ul role="list" className="mt-4 text-sm text-purple-950">
+                        <ul role="list" className="mt-4 text-sm text-orange-950">
                             {section.links.map((link, linkIndex) => (
                                 <li key={linkIndex} className="mt-4">
                                     <Link
@@ -75,10 +75,10 @@ function ArrowIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 function NewsletterForm() {
     return (
         <form className="max-w-sm">
-            <h2 className="font-display text-sm font-semibold tracking-wider text-purple-950">
+            <h2 className="font-display text-sm font-semibold tracking-wider text-orange-950">
                 Sign up for our newsletter
             </h2>
-            <p className="mt-4 text-sm text-purple-700">
+            <p className="mt-4 text-sm text-orange-700">
                 Subscribe to get the latest M-First news, articles, resources and
                 inspiration.
             </p>
@@ -88,13 +88,13 @@ function NewsletterForm() {
                     placeholder="Email address"
                     autoComplete="email"
                     aria-label="Email address"
-                    className="block w-full rounded-2xl border border-purple-950 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-purple-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
+                    className="block w-full rounded-2xl border border-orange-950 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-orange-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
                 />
                 <div className="absolute inset-y-1 right-1 flex justify-end">
                     <button
                         type="submit"
                         aria-label="Submit"
-                        className="flex aspect-square h-full items-center justify-center rounded-xl bg-purple-950 text-white transition hover:bg-purple-300"
+                        className="flex aspect-square h-full items-center justify-center rounded-xl bg-orange-950 text-white transition hover:bg-orange-300"
                     >
                         <ArrowIcon className="w-4" />
                     </button>
@@ -115,11 +115,12 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
-                    <Link href="/" aria-label="Home">
+                    {/* <Link href="/" aria-label="Home">
                         <Logo className="h-8" fillOnHover />
-                    </Link>
-                    <p className="text-sm text-purple-700">
-                        © Salaam From The Team. {new Date().getFullYear()}
+                    </Link> */}
+                    <h1 className='text-orange-700 font-semibold'>Super Expeditors</h1>
+                    <p className="text-sm text-orange-700">
+                        with love, From The Super Expeditors Team. {new Date().getFullYear()}
                     </p>
                 </div>
             </FadeIn>
