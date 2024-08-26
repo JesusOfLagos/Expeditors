@@ -15,11 +15,10 @@ export const AboutPage = () => {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2 text-wrap">
                   <h1 className="text-3xl text-wrap font-bold sm:text-5xl xl:text-6xl/none text-white">
-                    Accountability Services for Businesses
+                  Elite Accountability for High-Value Individuals aiming to achieve Unconventional Goals and create MORE Personal Time.
                   </h1>
                   <p className="max-w-[600px] text-[#303030] md:text-xl">
-                    At Super Expeditors, we help businesses stay on track and achieve their goals through our
-                    comprehensive accountability services.
+                  At Super Expeditors, we empower YOU to conquer your Goals, Control Procrastination, and have the Freedom you DESIRE.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -55,8 +54,7 @@ export const AboutPage = () => {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Meet the Super Expeditors Team</h2>
                 <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Our team of experienced professionals is dedicated to helping businesses achieve their goals through
-                  our tailored accountability services.
+                  Our team of experts helps you reach your goals with personalized accountability strategies and ongoing support.
                 </p>
               </div>
             </div>
@@ -64,31 +62,31 @@ export const AboutPage = () => {
               <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarFallback>DMO</AvatarFallback>
                 </Avatar>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">John Doe</h3>
-                  <p className="text-muted-foreground">Co-Founder, CEO</p>
+                  <h3 className="text-lg font-bold">Daud Moridiyah Omobola</h3>
+                  <p className="text-muted-foreground">CEO and Founder, Super Expeditors</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
-                  <AvatarFallback>JA</AvatarFallback>
+                  <AvatarFallback>DMO</AvatarFallback>
                 </Avatar>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Jane Ahn</h3>
-                  <p className="text-muted-foreground">Co-Founder, COO</p>
+                  <h3 className="text-lg font-bold">Daud Moridiyah Omobola</h3>
+                  <p className="text-muted-foreground">CEO and Founder, Super Expeditors</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <Avatar>
                   <AvatarImage src="/placeholder-user.jpg" />
-                  <AvatarFallback>TS</AvatarFallback>
+                  <AvatarFallback>DMO</AvatarFallback>
                 </Avatar>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Tom Smith</h3>
-                  <p className="text-muted-foreground">Lead Accountability Coach</p>
+                  <h3 className="text-lg font-bold">Daud Moridiyah Omobola</h3>
+                  <p className="text-muted-foreground">CEO and Founder, Super Expeditors</p>
                 </div>
               </div>
             </div>
@@ -100,9 +98,7 @@ export const AboutPage = () => {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Approach to Accountability</h2>
                 <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  At Super Expeditors, we believe that true accountability comes from a combination of structure,
-                  support, and personalized guidance. Our approach is designed to help businesses stay on track and
-                  achieve their goals.
+                  At Super Expeditors, we know that true Accountability is built on a mix of structure, support, and personalized guidance. Our approach is crafted to keep high-value individuals on track and ensure that they reach their goals.
                 </p>
               </div>
             </div>
@@ -110,28 +106,27 @@ export const AboutPage = () => {
               <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <BuildingIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Structure</h3>
+                  <h3 className="text-lg font-bold">Clear Structure</h3>
                   <p className="text-muted-foreground">
-                    We provide a clear framework and regular check-ins to help businesses stay on track.
+                    We provide a straightforward plan and regular check-ins to keep your momentum going.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <PowerIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Support</h3>
+                  <h3 className="text-lg font-bold">Consistent Support</h3>
                   <p className="text-muted-foreground">
-                    Our team of experienced professionals provides ongoing support and guidance to help businesses
-                    overcome challenges.
+                    Our experienced team is here with ongoing encouragement and advice.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
                 <UserPlusIcon className="w-12 h-12 text-[#045B2E]" />
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Personalization</h3>
+                  <h3 className="text-lg font-bold">Personalized Guidance</h3>
                   <p className="text-muted-foreground">
-                    We tailor our services to the unique needs and goals of each business we work with.
+                    We tailor our services to fit the unique needs and goals of every client.
                   </p>
                 </div>
               </div>

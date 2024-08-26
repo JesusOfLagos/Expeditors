@@ -20,10 +20,10 @@ export const Landing: React.FC = () => {
                     <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-8">
                         <div className="max-w-xl">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-                                Accountability Services for Your Business
+                            Accountability Services for You, And Your Activities.
                             </h1>
                             <p className="text-lg md:text-xl text-white mb-8">
-                                Super Expeditors provides comprehensive accountability services to help your business thrive.
+                                At Super Expeditors, we empower YOU to conquer your Goals, Control Procrastination, and have the Freedom you DESIRE.
                             </p>
                             <Link
                                 href="#"
@@ -54,16 +54,17 @@ export const Landing: React.FC = () => {
                         <div className="max-w-xl">
                             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">About Us</h2>
                             <p className="text-lg md:text-xl text-white mb-8">
-                                Super Expeditors is a leading provider of accountability services, helping businesses of all sizes achieve
-                                their goals. Our team of experts is dedicated to delivering tailored solutions that empower our clients
-                                to succeed.
+                                We&apos;re not just another coaching company, we give you strategies that make  you achieve your Unconventional Goals, prioritize feeling great about your work, and create more free time in your busy life while remaining accountable to your dream.
+                            </p>
+                            <p className="text-lg md:text-xl text-white mb-8">
+                                Our elite Accountability strategies are designed to make you the very BEST version of yourself without sacrificing time spent with your family...family, loved ones, or your freedom.
                             </p>
                             <Link
                                 href="#"
                                 className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-[#FF6801] text-white font-medium hover:bg-[#d95700] focus:outline-none focus:ring-2 focus:ring-[#FF6801] focus:ring-offset-2"
                                 prefetch={false}
                             >
-                                Learn More
+                                SMASH YOUR UNCONVENTIONAL GOALS NOW
                             </Link>
                         </div>
                     </div>
@@ -72,30 +73,28 @@ export const Landing: React.FC = () => {
                     <div className="container mx-auto px-4 md:px-6 text-center">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#045b2E] mb-4">Our Services</h2>
                         <p className="text-lg md:text-xl text-[#303030] mb-12">
-                            Super Expeditors offers a range of accountability services to help your business succeed.
+                            At Super Expeditors, we transform your vision, your Unconventional Goals, and your dreams and bring them to life with our premier services:
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <ClipboardIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Performance Tracking</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Crystal-Clear Goal Setting</h3>
                                 <p className="text-[#303030]">
-                                    We help you track and analyze your business performance to identify areas for improvement.
+                                    We turn your dreams into detailed, actionable plans that propel your business and life forward.
                                 </p>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <PieChartIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Financial Reporting</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Laser-Focused Progress Tracking</h3>
                                 <p className="text-[#303030]">
-                                    Our financial reporting services provide you with accurate and up-to-date information to make informed
-                                    decisions.
+                                    We make sure you stay ahead of the game with our state-of-the-art tracking tools that provide instant clarity on your journey.
                                 </p>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <CheckIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Compliance Monitoring</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Dynamic Coaching & Unwavering Support</h3>
                                 <p className="text-[#303030]">
-                                    We help you stay compliant with relevant laws and regulations, ensuring your business operates
-                                    ethically and legally.
+                                    We also ensure that you conquer any challenge with our expert guidance and steadfast support, ensuring you achieve greatness.
                                 </p>
                             </div>
                         </div>
@@ -110,29 +109,29 @@ export const Landing: React.FC = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <ClipboardIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Real-time Reporting</h3>
-                                <p className="text-[#303030]">Get instant access to up-to-date performance metrics and analytics.</p>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Customized Accountability Plans Just For You</h3>
+                                <p className="text-[#303030]">We create tailored strategies to fit your unique goals, schedule, and lifestyle.</p>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <PieChartIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Customizable Dashboards</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Time Reclamation Techniques</h3>
                                 <p className="text-[#303030]">
-                                    Tailor your dashboard to display the metrics that matter most to your business.
+                                    We help you create more free time for yourself while increasing productivity in all areas of life.
                                 </p>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <CheckIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Automated Alerts</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">High-Performance Coaching</h3>
                                 <p className="text-[#303030]">
-                                    Get notified of important changes or issues so you can address them quickly.
+                                    We give you access to expert guidance for unconventional goal achievement.
                                 </p>
                             </div>
-                            <div className="bg-white rounded-lg shadow-lg p-6">
+                            {/* <div className="bg-white rounded-lg shadow-lg p-6">
                                 <ClipboardIcon className="h-12 w-12 text-[#FF6801] mb-4" />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Benchmarking</h3>
-                                <p className="text-[#303030]">Compare your performance against industry standards and competitors.</p>
-                            </div>
-                            <div className="bg-white rounded-lg shadow-lg p-6">
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Performance Tracking</h3>
+                                <p className="text-[#303030]">We help you track your growth, fuel your progress, and fine-tune your approach.</p>
+                            </div> */}
+                            {/* <div className="bg-white rounded-lg shadow-lg p-6">
                                 <PieChartIcon className="h-12 w-12 text-[#FF6801] mb-4" />
                                 <h3 className="text-xl font-bold text-[#045b2E] mb-2">Predictive Analytics</h3>
                                 <p className="text-[#303030]">
@@ -145,7 +144,7 @@ export const Landing: React.FC = () => {
                                 <p className="text-[#303030]">
                                     Streamline your compliance processes and reduce the risk of non-compliance.
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -164,16 +163,17 @@ export const Landing: React.FC = () => {
                                     alt="Course Image"
                                     className="w-full rounded-lg mb-4"
                                 />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Introduction to Accountability</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Yes To Punctuality (YTP)</h3>
                                 <p className="text-[#303030] mb-4">
-                                    Learn the fundamentals of accountability and how it can benefit your business.
+                                    Free masterclass to control procrastination and boost productivity.
                                 </p>
                                 <Link
                                     href="#"
                                     className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-[#FF6801] text-white font-medium hover:bg-[#d95700] focus:outline-none focus:ring-2 focus:ring-[#FF6801] focus:ring-offset-2"
                                     prefetch={false}
                                 >
-                                    Enroll Now
+                                    SAY NO TO PROCRASTINATION!
+
                                 </Link>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -184,16 +184,16 @@ export const Landing: React.FC = () => {
                                     alt="Course Image"
                                     className="w-full rounded-lg mb-4"
                                 />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Financial Reporting Essentials</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Peak Pursuit Mavericks (PPM)</h3>
                                 <p className="text-[#303030] mb-4">
-                                    Gain a deep understanding of financial reporting and how to leverage it for your business.
+                                    An elite community for ambitious individuals seeking to create more free time for themselves and loved ones -despite their busy schedules - without it affecting their productivity.
                                 </p>
                                 <Link
                                     href="#"
                                     className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-[#FF6801] text-white font-medium hover:bg-[#d95700] focus:outline-none focus:ring-2 focus:ring-[#FF6801] focus:ring-offset-2"
                                     prefetch={false}
                                 >
-                                    Enroll Now
+                                    REGAIN YOUR FREEDOM!
                                 </Link>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -290,40 +290,68 @@ export const Landing: React.FC = () => {
                             <div className="space-y-4">
                                 <Collapsible className="bg-green-800">
                                     <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
-                                        <h3 className="text-lg font-semibold">What courses do you offer?</h3>
+                                        <h3 className="text-lg font-semibold">Who do we serve?
+                                        </h3>
                                         <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
                                     </CollapsibleTrigger>
                                     <CollapsibleContent className="px-6 py-4">
                                         <p className="text-muted-foreground">
-                                            We offer a wide range of courses in various subjects, including web development, data science, machine
-                                            learning, and more. Our courses are designed to cater to learners of all levels, from beginners to
-                                            advanced.
+                                            Super Expeditors began as an Accountability Coaching platform serving a broad clientele, including students and entrepreneurs. Now, it has refined its focus. Super Expeditors is now targeted at helping Entrepreneurs/business owners, Creatives, and Executives achieve their unconventional goals, maintain accountability, and create More FREE TIME in their busy lives through specialized coaching and strategies.
                                         </p>
                                     </CollapsibleContent>
                                 </Collapsible>
                                 <Collapsible className="bg-green-800">
                                     <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
-                                        <h3 className="text-lg font-semibold">How long are the courses?</h3>
+                                        <h3 className="text-lg font-semibold">What is PPM?</h3>
                                         <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
                                     </CollapsibleTrigger>
                                     <CollapsibleContent className="px-6 py-4">
                                         <p className="text-muted-foreground">
-                                            The duration of our courses varies depending on the subject and the level of depth. Most of our courses
-                                            are self-paced, allowing you to learn at your own pace. However, we also offer some instructor-led
-                                            courses with set schedules.
+                                        Peak Pursuit Mavericks is a group of independent thinkers who are not afraid to take risks, challenge conventional ideas, and explore new paths to achieve their goals. They are in relentless pursuit of reaching the highest levels of accomplishment and personal growth. The members of this group are not afraid to challenge the status quo, explore new territories, and crave their own path to success.
                                         </p>
                                     </CollapsibleContent>
                                 </Collapsible>
                                 <Collapsible className="bg-green-800">
                                     <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
-                                        <h3 className="text-lg font-semibold">Do you offer any certifications?</h3>
+                                        <h3 className="text-lg font-semibold">How does the PPM community work?</h3>
                                         <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
                                     </CollapsibleTrigger>
                                     <CollapsibleContent className="px-6 py-4">
                                         <p className="text-muted-foreground">
-                                            Yes, we offer various certifications upon successful completion of our courses. These certifications are
-                                            recognized by industry leaders and can help you demonstrate your skills and knowledge to potential
-                                            employers.
+                                        The PPM (Peak Pursuit Mavericks) community helps you feel happy and fulfilled in the work you do. The aim is to assist you in creating more free time for yourself and loved ones, control procrastination, and connect you with ambitious peers, while making your unconventional dreams a reality through a supportive community that encourages growth, accountability, and the pursuit of daring goals.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Do you offer personalized coaching?</h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        Yes, we offer personalized coaching. We often hold personalized coaching sessions to help you achieve a particular unique goal or a specific problem you maybe struggling with.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Where should I start from? </h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        You can start by joining the YTP program for FREE. Just click the link in our bio, sign up with your email address, and the program is ALL YOURS.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Who can I contact? </h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        Kindly reach out to us at Superexpeditors@gmail.com for any question or enquiry, or send a message on Instagram/LinkedIn @superexpeditors.
                                         </p>
                                     </CollapsibleContent>
                                 </Collapsible>

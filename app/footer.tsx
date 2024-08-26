@@ -79,8 +79,7 @@ function NewsletterForm() {
                 Sign up for our newsletter
             </h2>
             <p className="mt-4 text-sm text-purple-700">
-                Subscribe to get the latest M-First news, articles, resources and
-                inspiration.
+            Join our newsletter for exclusive tips, strategies, and inspiration to conquer procrastination and achieve your unconventional goals.
             </p>
             <div className="relative mt-6">
                 <input

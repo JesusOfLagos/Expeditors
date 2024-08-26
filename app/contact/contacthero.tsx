@@ -22,8 +22,8 @@ export const ContactHero: React.FC = () => {
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Email Us</p>
                         <div>
-                            <p className="text-white">contact@superexpeditors.com</p>
-                            <p className="text-white">support@superexpeditors.com</p>
+                            <p className="text-white">Superexpeditors@gmail.com</p>
+                            <p className="text-white">Superexpeditors@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@ export const ContactHero: React.FC = () => {
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Call Us</p>
                         <div>
-                            <p className="text-white">+1 (555) 123-4567</p>
-                            <p className="text-white">+1 (555) 987-6543</p>
+                            <p className="text-white">(+234) 9031133555</p>
+                            <p className="text-white">(+234) 9031133555</p>
                         </div>
                     </div>
                 </div>
@@ -44,9 +44,9 @@ export const ContactHero: React.FC = () => {
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Follow Us</p>
                         <div>
-                            <p className="text-white">Twitter: <a href="https://twitter.com/SuperExpeditors" className="underline">/SuperExpeditors</a></p>
-                            <p className="text-white">LinkedIn: <a href="https://linkedin.com/company/superexpeditors" className="underline">/company/superexpeditors</a></p>
-                            <p className="text-white">Facebook: <a href="https://facebook.com/SuperExpeditors" className="underline">/SuperExpeditors</a></p>
+                            <p className="text-white">Tiktok: <a href="https://tiktok.com/super.expeditors" className="underline">@super.expeditors</a></p>
+                            <p className="text-white">LinkedIn:<a href="https://linkedin.com/company/superexpeditors" className="underline">@superexpeditors</a></p>
+                            <p className="text-white">Instagram: <a href="https://instagram.com/superExpeditors" className="underline">@superexpeditors</a></p>
                         </div>
                     </div>
                 </div>
