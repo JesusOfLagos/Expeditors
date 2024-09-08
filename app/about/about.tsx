@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Nav } from "../nav"
 import { Footer } from "../../components/Footer"
+import image2 from '@/public/account5.jpg'
 
 export const AboutPage = () => {
   return (
@@ -39,7 +40,7 @@ export const AboutPage = () => {
                 </div>
               </div>
               <img
-                src="/placeholder.svg"
+                src={image2.src}
                 width="550"
                 height="550"
                 alt="Hero"

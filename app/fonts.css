@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'BWGradual';
+    src: url('/public/fonts/bwgradual/Bw-Gradual.woff2') format('woff2'),
+         url('/public/fonts/bwgradual/Bw-Gradual.woff') format('woff'),
+         url('/public/fonts/bwgradual/Bw-Gradual.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'BWGradual';
+    src: url('/public/fonts/bwgradual/Bw-Gradual.woff2') format('woff2'),
+         url('/public/fonts/bwgradual/Bw-Gradual.woff') format('woff'),
+         url('/public/fonts/bwgradual/Bw-Gradual.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  

@@ -1,5 +1,7 @@
 
 import Link from "next/link"
+import Image from "next/image"
+import logo from '../public/logobg.png'
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 
@@ -9,7 +11,16 @@ export const Nav = () => {
       <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
           {/* <MountainIcon className="h-6 w-6 text-primary-foreground" /> */}
-          <span className="text-3xl text-white font-semibold text-primary-foreground">Super Expeditors</span>
+          {/* <span className="text-3xl text-white font-semibold text-primary-foreground">Super Expeditors</span> */}
+          <div className="rounded-full">
+            <Image
+              src={logo}
+              alt="Super Expeditors"
+              width={70}
+              height={50}
+              className="object-cover rounded-full"
+             />
+          </div>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium text-primary-foreground md:flex">
           <Link

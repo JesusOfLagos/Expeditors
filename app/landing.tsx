@@ -6,12 +6,15 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Nav } from "./nav"
+import image from '@/public/account1.jpg'
+import image2 from '@/public/account5.jpg'
+import ytp from '@/public/ytp.jpeg'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { Footer } from "@/components/Footer"
 
 export const Landing: React.FC = () => {
     return (
-        <div className="flex flex-col min-h-[100dvh]">
+        <div style={{ fontFamily: 'BWGradual' }} className="flex flex-col min-h-[100dvh]">
             <header className="bg-[#045b2E] py-4 px-6">
                 <Nav />
             </header>
@@ -34,7 +37,7 @@ export const Landing: React.FC = () => {
                             </Link>
                         </div>
                         <img
-                            src="/placeholder.svg"
+                            src={image.src}
                             width="500"
                             height="400"
                             alt="Hero Image"
@@ -45,7 +48,7 @@ export const Landing: React.FC = () => {
                 <section id="about" className="py-16 md:py-24 lg:py-32 bg-[#303030]">
                     <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-8">
                         <img
-                            src="/placeholder.svg"
+                            src={image2.src}
                             width="500"
                             height="400"
                             alt="About Us"
@@ -157,7 +160,7 @@ export const Landing: React.FC = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <img
-                                    src="/placeholder.svg"
+                                    src={ytp.src}
                                     width="300"
                                     height="200"
                                     alt="Course Image"
@@ -178,7 +181,7 @@ export const Landing: React.FC = () => {
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <img
-                                    src="/placeholder.svg"
+                                    src={ytp.src}
                                     width="300"
                                     height="200"
                                     alt="Course Image"
@@ -198,7 +201,7 @@ export const Landing: React.FC = () => {
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <img
-                                    src="/placeholder.svg"
+                                    src={ytp.src}
                                     width="300"
                                     height="200"
                                     alt="Course Image"

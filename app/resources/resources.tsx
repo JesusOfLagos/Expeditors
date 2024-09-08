@@ -246,8 +246,8 @@ export const Resource: React.FC = () => {
         <Nav />
       </div>
       <section className="w-full py-12 mt-8 md:py-24 lg:py-32 bg-[#045B2E]">
-        <div className="container px-4 md:px-6">
-          <div className="space-y-4 text-[#FF6801]">
+        <div className="container px-4 md:px-6 mx-16">
+          <div className="space-y-4 text-[#FF6801] mx-10">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Resources</h2>
             <p className="max-w-[700px] text-white md:text-xl">
               Explore our collection of articles, whitepapers, webinars, and FAQs to learn more about our services and
