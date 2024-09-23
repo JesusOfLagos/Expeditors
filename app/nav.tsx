@@ -73,19 +73,19 @@ export const Nav = () => {
                 {/* <span className="sr-only">Close menu</span> */}
               </Button>
               <nav className="flex flex-col items-center gap-4 text-lg font-medium text-primary-foreground">
-                <Link href="#" className="hover:underline" prefetch={false}>
-                  Home
-                </Link>
-                <Link href="#" className="hover:underline" prefetch={false}>
-                  Features
-                </Link>
-                <Link href="#" className="hover:underline" prefetch={false}>
-                  Pricing
-                </Link>
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="/about" className="hover:underline" prefetch={false}>
                   About
                 </Link>
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="/services" className="hover:underline" prefetch={false}>
+                  Services
+                </Link>
+                <Link href="/courses" className="hover:underline" prefetch={false}>
+                  Courses
+                </Link>
+                <Link href="/resources" className="hover:underline" prefetch={false}>
+                  Resources
+                </Link>
+                <Link href="/contact" className="hover:underline" prefetch={false}>
                   Contact
                 </Link>
               </nav>

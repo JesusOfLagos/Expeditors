@@ -9,8 +9,11 @@ import { Nav } from "./nav"
 import image from '@/public/account1.jpg'
 import image2 from '@/public/account5.jpg'
 import ytp from '@/public/ytp.jpeg'
+import ppm from '@/public/ppm.jpeg'
+import cic from '@/public/cic.jpeg'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { Footer } from "@/components/Footer"
+import TestimonialGallery from "./testimonial"
 
 export const Landing: React.FC = () => {
     return (
@@ -181,11 +184,11 @@ export const Landing: React.FC = () => {
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <img
-                                    src={ytp.src}
+                                    src={ppm.src}
                                     width="300"
                                     height="200"
                                     alt="Course Image"
-                                    className="w-full rounded-lg mb-4"
+                                    className="w-full rounded-lg mb-4 h-60"
                                 />
                                 <h3 className="text-xl font-bold text-[#045b2E] mb-2">Peak Pursuit Mavericks (PPM)</h3>
                                 <p className="text-[#303030] mb-4">
@@ -201,15 +204,15 @@ export const Landing: React.FC = () => {
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <img
-                                    src={ytp.src}
+                                    src={cic.src}
                                     width="300"
-                                    height="200"
+                                    height="600"
                                     alt="Course Image"
-                                    className="w-full rounded-lg mb-4"
+                                    className="w-full rounded-lg mb-4 h-60"
                                 />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Compliance Mastery</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Crust It Crew</h3>
                                 <p className="text-[#303030] mb-4">
-                                    Dive deep into compliance best practices and ensure your business operates ethically and legally.
+                                Crush It Crew is a 30-day Accountability Coaching  that helps you Control procrastination and start getting things done by tracking your progress every day while using other methods to change how you think about your goals.
                                 </p>
                                 <Link
                                     href="#"
@@ -228,7 +231,8 @@ export const Landing: React.FC = () => {
                         <p className="text-lg md:text-xl text-[#303030] mb-12">
                             Hear from our satisfied clients about their experience with Super Expeditors.
                         </p>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <TestimonialGallery />
+                        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">
                                 <div className="flex items-center mb-4">
                                     <Avatar className="w-12 h-12 mr-4">
@@ -280,7 +284,7 @@ export const Landing: React.FC = () => {
                                 </p>
                                 <div />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
                 <section id="faq" className="py-16 md:py-24 lg:py-32 bg-[#FF6801] text-white">

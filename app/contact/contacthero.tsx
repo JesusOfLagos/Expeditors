@@ -22,8 +22,8 @@ export const ContactHero: React.FC = () => {
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Email Us</p>
                         <div>
-                            <p className="text-white">Superexpeditors@gmail.com</p>
-                            <p className="text-white">Superexpeditors@gmail.com</p>
+                            <p className="text-white">superexpeditors@gmail.com</p>
+                            <p className="text-white">superexpeditors@gmail.com</p>
                         </div>
                     </div>
                 </div>

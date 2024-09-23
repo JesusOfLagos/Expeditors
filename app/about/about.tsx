@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
-import { Nav } from "../nav"
 import { Footer } from "../../components/Footer"
 import image2 from '@/public/account5.jpg'
 

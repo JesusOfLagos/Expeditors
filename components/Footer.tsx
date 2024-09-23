@@ -79,8 +79,8 @@ function NewsletterForm() {
                 Sign up for our newsletter
             </h2>
             <p className="mt-4 text-sm text-orange-700">
-            Join our newsletter for exclusive tips, strategies, and inspiration to conquer procrastination and achieve your unconventional goals.
-            </p>
+            Join our newsletter for exclusive tips, strategies, and inspiration to control Procrastination and achieve your Unconventional Goals
+                        </p>
             <div className="relative mt-6">
                 <input
                     type="email"
