@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Nav } from "./nav"
 import image from '@/public/account1.jpg'
-import image2 from '@/public/account5.jpg'
+import image2 from '@/public/tell/account5.jpg'
 import ytp from '@/public/ytp.jpeg'
 import ppm from '@/public/ppm.jpeg'
 import cic from '@/public/cic.jpeg'
@@ -25,18 +25,16 @@ export const Landing: React.FC = () => {
                 <section className="bg-[#045b2E] py-16 md:py-24 lg:py-32">
                     <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-8">
                         <div className="max-w-xl">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-                            Accountability Services for You, And Your Activities.
-                            </h1>
+                            <h1 className="text-2xl md:text-5xl lg:text-4xl font-bold text-white mb-4">
+                            Elite Accountability Coaching for High-Value Individuals aiming to achieve Unconventional Goals and create MORE Personal Time.                            </h1>
                             <p className="text-lg md:text-xl text-white mb-8">
-                                At Super Expeditors, we empower YOU to conquer your Goals, Control Procrastination, and have the Freedom you DESIRE.
-                            </p>
+                            At Super Expeditors, we empower YOU to conquer your Goals, Control Procrastination, and have the Freedom you DESIRE.                            </p>
                             <Link
                                 href="#"
                                 className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-[#FF6801] text-white font-medium hover:bg-[#d95700] focus:outline-none focus:ring-2 focus:ring-[#FF6801] focus:ring-offset-2"
                                 prefetch={false}
                             >
-                                Get Started
+                                 LET’S GET STARTED
                             </Link>
                         </div>
                         <img
@@ -210,7 +208,7 @@ export const Landing: React.FC = () => {
                                     alt="Course Image"
                                     className="w-full rounded-lg mb-4 h-60"
                                 />
-                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Crust It Crew</h3>
+                                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Crush It Crew</h3>
                                 <p className="text-[#303030] mb-4">
                                 Crush It Crew is a 30-day Accountability Coaching  that helps you Control procrastination and start getting things done by tracking your progress every day while using other methods to change how you think about your goals.
                                 </p>
@@ -219,7 +217,7 @@ export const Landing: React.FC = () => {
                                     className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-[#FF6801] text-white font-medium hover:bg-[#d95700] focus:outline-none focus:ring-2 focus:ring-[#FF6801] focus:ring-offset-2"
                                     prefetch={false}
                                 >
-                                    Enroll Now
+                                   CRUSH YOUR GOALS
                                 </Link>
                             </div>
                         </div>
@@ -227,10 +225,6 @@ export const Landing: React.FC = () => {
                 </section>
                 <section id="testimonials" className="py-16 md:py-24 lg:py-32">
                     <div className="container mx-auto px-4 md:px-6 text-center">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#045b2E] mb-4">What Our Clients Say</h2>
-                        <p className="text-lg md:text-xl text-[#303030] mb-12">
-                            Hear from our satisfied clients about their experience with Super Expeditors.
-                        </p>
                         <TestimonialGallery />
                         {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="bg-white rounded-lg shadow-lg p-6">

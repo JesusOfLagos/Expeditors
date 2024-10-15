@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Footer } from "../../components/Footer"
-import image2 from '@/public/account5.jpg'
+import image2 from '@/public/tell/account5.jpg'
 
 export const AboutPage = () => {
   return (
@@ -15,10 +15,10 @@ export const AboutPage = () => {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2 text-wrap">
                   <h1 className="text-3xl text-wrap font-bold sm:text-5xl xl:text-6xl/none text-white">
-                  Elite Accountability for High-Value Individuals aiming to achieve Unconventional Goals and create MORE Personal Time.
-                  </h1>
+                  We&apos;re not just another coaching company, we give you strategies that make  you achieve your Unconventional Goals, prioritize feeling great about your work, and create more free time in your busy life while remaining accountable to your dream.</h1>
+
                   <p className="max-w-[600px] text-[#303030] md:text-xl">
-                  At Super Expeditors, we empower YOU to conquer your Goals, Control Procrastination, and have the Freedom you DESIRE.
+                  Our elite Accountability strategies are designed to make you the very BEST version of yourself without sacrificing time spent with your family, loved ones, or your freedom.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -45,50 +45,6 @@ export const AboutPage = () => {
                 alt="Hero"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
               />
-            </div>
-          </div>
-        </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-[#303030]">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Meet the Super Expeditors Team</h2>
-                <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Our team of experts helps you reach your goals with personalized accountability strategies and ongoing support.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
-                <Avatar>
-                  <AvatarImage src="/placeholder-user.jpg" />
-                  <AvatarFallback>DMO</AvatarFallback>
-                </Avatar>
-                <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Daud Moridiyah Omobola</h3>
-                  <p className="text-muted-foreground">CEO and Founder, Super Expeditors</p>
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
-                <Avatar>
-                  <AvatarImage src="/placeholder-user.jpg" />
-                  <AvatarFallback>DMO</AvatarFallback>
-                </Avatar>
-                <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Daud Moridiyah Omobola</h3>
-                  <p className="text-muted-foreground">CEO and Founder, Super Expeditors</p>
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
-                <Avatar>
-                  <AvatarImage src="/placeholder-user.jpg" />
-                  <AvatarFallback>DMO</AvatarFallback>
-                </Avatar>
-                <div className="space-y-1">
-                  <h3 className="text-lg font-bold">Daud Moridiyah Omobola</h3>
-                  <p className="text-muted-foreground">CEO and Founder, Super Expeditors</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>

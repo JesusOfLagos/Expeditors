@@ -24,42 +24,42 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    // name: "Alice Johnson",
+    name: "Gift Adasa",
     // company: "TechCorp",
     // quote: "Filer has revolutionized our file management. It's secure, fast, and incredibly easy to use!",
     image: image1.src
   },
   {
     id: 2,
-    // name: "Bob Smith",
+    name: "Abubakr Yakubu",
     // company: "DataDrive",
     // quote: "The decentralized nature of Filer gives us peace of mind. Our data has never been safer.",
     image: image2.src
   },
   {
     id: 3,
-    // name: "Carol White",
+    name: "Alade Hikmah",
     // company: "CloudSolutions",
     // quote: "Filer's interface is intuitive and the performance is outstanding. It's a game-changer!",
     image: image3.src
   },
   {
     id: 4,
-    // name: "Eva Green",
+    name: "Prince Adebayo",
     // company: "InnovateTech",
     // quote: "Filer's customer support is top-notch. They're always there when we need them.",
     image: image4.src
   },
   {
     id: 5,
-    // name: "Frank Lee",
+    name: "Dami Ajiboye",
     // company: "GlobalData",
     // quote: "The scalability of Filer is impressive. It grows with our business seamlessly.",
     image: image5.src
   },
   {
     id: 6,
-    // name: "Grace Taylor",
+    name: "Abdul-Azeez",
     // company: "FutureSoft",
     // quote: "Filer's encryption standards are unparalleled. It's the most secure solution we've used.",
     image: image6.src
@@ -68,14 +68,14 @@ const testimonials: Testimonial[] = [
 
 const HexagonalTestimonial: React.FC<{ testimonial: Testimonial; onClick: () => void }> = ({ testimonial, onClick }) => (
   <motion.div
-    className="hexagon cursor-pointer"
+    className="hexagon cursor-pointer w-94 h-94"
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
     onClick={onClick}
   >
-    <img src={testimonial.image} alt={testimonial.name} className="hexagon-image" />
-    <div className="hexagon-content">
-      <h3 className="text-lg font-semibold">{testimonial.name}</h3>
+    <img src={testimonial.image} alt={testimonial.name} className="hexagon-image rounded-2xl h-94 w-94" />
+    <div className="hexagon-content border-2 border-black rounded-3xl mt-6">
+      <h3 className="text-lg font-semibold text-white ">{testimonial.name}</h3>
       <p className="text-sm">{testimonial.company}</p>
     </div>
   </motion.div>
@@ -86,8 +86,10 @@ export default function TestimonialGallery() {
 
   return (
     <div className="p-8 bg-[#045b2E] min-h-screen">
-      <h2 className="text-3xl font-bold text-center text-white mb-12">What Our Users Say</h2>
-      <div className="hexagon-grid">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 underline">What Our Clients Say</h2>
+      <p className="text-lg md:text-xl text-white mb-12">
+        Hear from our satisfied clients about their experience with Super Expeditors.
+      </p>      <div className="hexagon-grid">
         {testimonials.map((testimonial) => (
           <HexagonalTestimonial
             key={testimonial.id}
@@ -138,9 +140,10 @@ export default function TestimonialGallery() {
           position: relative;
         }
         .hexagon-image {
-          width: 100%;
-          height: 100%;
+          width: 100px;
+          height: 100px;
           object-fit: cover;
+          border-radius: 10px;
           opacity: 0.7;
           transition: opacity 0.3s ease;
         }

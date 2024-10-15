@@ -19,7 +19,7 @@ export const Course: React.FC = () => {
           <div className="container px-4 md:px-6 grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                Empower Your Business with Our Accountability Services
+                Empower Yourself with Our Accountability Courses
               </h1>
               <p className="text-white text-lg md:text-xl">
                 Discover how Super Expeditors can help you maintain accountability, streamline processes, and achieve operational excellence.
@@ -98,7 +98,7 @@ export const Course: React.FC = () => {
                   alt="Course Image"
                   className="w-full rounded-lg mb-4 h-60"
                 />
-                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Crust It Crew</h3>
+                <h3 className="text-xl font-bold text-[#045b2E] mb-2">Crush It Crew</h3>
                 <p className="text-[#303030] mb-4">
                   Crush It Crew is a 30-day Accountability Coaching  that helps you Control procrastination and start getting things done by tracking your progress every day while using other methods to change how you think about your goals.
                 </p>
@@ -107,7 +107,7 @@ export const Course: React.FC = () => {
                   className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-[#FF6801] text-white font-medium hover:bg-[#d95700] focus:outline-none focus:ring-2 focus:ring-[#FF6801] focus:ring-offset-2"
                   prefetch={false}
                 >
-                  Enroll Now
+                  CRUSH YOUR GOALS
                 </Link>
               </div>
             </div>
