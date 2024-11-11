@@ -14,6 +14,7 @@ import cic from '@/public/cic.jpeg'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { Footer } from "@/components/Footer"
 import TestimonialGallery from "./testimonial"
+import BookingPage from "./booking/services"
 
 export const Landing: React.FC = () => {
     return (
@@ -279,6 +280,7 @@ export const Landing: React.FC = () => {
                                 <div />
                             </div>
                         </div> */}
+                        <BookingPage />
                     </div>
                 </section>
                 <section id="faq" className="py-16 md:py-24 lg:py-32 bg-[#FF6801] text-white">
