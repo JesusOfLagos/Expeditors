@@ -2,6 +2,8 @@ import Link from "next/link"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Footer } from "../../components/Footer"
 import image2 from '@/public/tell/account5.jpg'
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible"
+import { ChevronDownIcon } from "@radix-ui/react-icons"
 
 export const AboutPage = () => {
   return (
@@ -132,6 +134,86 @@ export const AboutPage = () => {
             </div>
           </div>
         </section>
+
+        <section id="faq" className="py-16 md:py-24 lg:py-32 bg-[#FF6801] text-white">
+                    <div className="w-full max-w-5xl mx-auto py-12 md:py-20">
+                        <div className="space-y-8">
+                            <div className="text-center">
+                                <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
+                                <p className="text-muted-foreground mt-2">Get answers to the most common questions about our courses.</p>
+                            </div>
+                            <div className="space-y-4">
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Who do we serve?
+                                        </h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                            Super Expeditors began as an Accountability Coaching platform serving a broad clientele, including students and entrepreneurs. Now, it has refined its focus. Super Expeditors is now targeted at helping Entrepreneurs/business owners, Creatives, and Executives achieve their unconventional goals, maintain accountability, and create More FREE TIME in their busy lives through specialized coaching and strategies.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">What is PPM?</h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        Peak Pursuit Mavericks is a group of independent thinkers who are not afraid to take risks, challenge conventional ideas, and explore new paths to achieve their goals. They are in relentless pursuit of reaching the highest levels of accomplishment and personal growth. The members of this group are not afraid to challenge the status quo, explore new territories, and crave their own path to success.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">How does the PPM community work?</h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        The PPM (Peak Pursuit Mavericks) community helps you feel happy and fulfilled in the work you do. The aim is to assist you in creating more free time for yourself and loved ones, control procrastination, and connect you with ambitious peers, while making your unconventional dreams a reality through a supportive community that encourages growth, accountability, and the pursuit of daring goals.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Do you offer personalized coaching?</h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        Yes, we offer personalized coaching. We often hold personalized coaching sessions to help you achieve a particular unique goal or a specific problem you maybe struggling with.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Where should I start from? </h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        You can start by joining the YTP program for FREE. Just click the link in our bio, sign up with your email address, and the program is ALL YOURS.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                                <Collapsible className="bg-green-800">
+                                    <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted px-6 py-4 rounded-md">
+                                        <h3 className="text-lg font-semibold">Who can I contact? </h3>
+                                        <ChevronDownIcon className="h-5 w-5 text-muted-foreground" />
+                                    </CollapsibleTrigger>
+                                    <CollapsibleContent className="px-6 py-4">
+                                        <p className="text-muted-foreground">
+                                        Kindly reach out to us at Superexpeditors@gmail.com for any question or enquiry, or send a message on Instagram/LinkedIn @superexpeditors.
+                                        </p>
+                                    </CollapsibleContent>
+                                </Collapsible>
+                            </div>
+                        </div>
+                    </div>
+                </section>
       </main>
       <Footer />
     </div>

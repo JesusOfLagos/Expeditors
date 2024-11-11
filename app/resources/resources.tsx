@@ -252,7 +252,6 @@ export const Resource: React.FC = () => {
                         </div>
                     </div>
                 </section>
-
           </div>
         </div>
       </section>

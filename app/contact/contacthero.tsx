@@ -1,11 +1,10 @@
 export const ContactHero: React.FC = () => {
     return (
-        <div className="mb-32">
+        <div className="mb-32 bg-white">
             <div className="flex justify-center">
                 <p className="text-4xl p-4 font-semibold text-[#FF6801]">Get in touch with<span className="text-[#045B2E]"> Us</span></p>
             </div>
             <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 justify-center mx-4 lg:mx-16 my-6">
-                {/* Visit Us Section */}
                 <div style={{ backgroundColor: '#045B2E' }} className="w-full border border-[#303030] rounded-2xl">
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Visit Us</p>
@@ -17,7 +16,6 @@ export const ContactHero: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Email Us Section */}
                 <div style={{ backgroundColor: '#FF6801' }} className="w-full border border-[#303030] rounded-2xl">
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Email Us</p>
@@ -28,7 +26,6 @@ export const ContactHero: React.FC = () => {
                     </div>
                 </div>
                 
-                {/* Call Us Section */}
                 <div style={{ backgroundColor: '#303030' }} className="w-full border border-[#FF6801] rounded-2xl">
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Call Us</p>
@@ -39,7 +36,6 @@ export const ContactHero: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Follow Us Section */}
                 <div style={{ backgroundColor: '#FF6801' }} className="w-full border border-[#045B2E] rounded-2xl">
                     <div className="p-4">
                         <p className="font-semibold text-2xl mb-4 text-white">Follow Us</p>

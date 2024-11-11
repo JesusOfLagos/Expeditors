@@ -18,7 +18,7 @@ export const Nav = () => {
               alt="Super Expeditors"
               width={70}
               height={50}
-              className="object-cover rounded-full"
+              className="object-cover rounded-full w-30 h-30"
              />
           </div>
         </Link>
@@ -31,11 +31,11 @@ export const Nav = () => {
             About 
           </Link>
           <Link
-            href="/services"
+            href="/booking"
             className="relative before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-primary-foreground before:transition-all before:duration-300 hover:before:w-full"
             prefetch={false}
           >
-            Services
+            Booking
           </Link>
           <Link
             href="courses"
@@ -76,8 +76,8 @@ export const Nav = () => {
                 <Link href="/about" className="hover:underline" prefetch={false}>
                   About
                 </Link>
-                <Link href="/services" className="hover:underline" prefetch={false}>
-                  Services
+                <Link href="/booking" className="hover:underline" prefetch={false}>
+                  Booking
                 </Link>
                 <Link href="/courses" className="hover:underline" prefetch={false}>
                   Courses

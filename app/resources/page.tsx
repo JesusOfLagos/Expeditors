@@ -3,7 +3,7 @@ import { Resource } from "./resources";
 
 export default function Resources() {
     return (
-        <div>
+        <div className="bg-white">
             <Resource />
             <Footer />
         </div>
